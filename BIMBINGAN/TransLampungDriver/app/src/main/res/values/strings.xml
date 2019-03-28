@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Trans Lampung Driver</string>
+    <string name="action_sign_in_short">Daftar</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password terlalu pendek, masukkan minimal 6 karakter!</string>
+    <string name="auth_failed">Autentikasi gagal, periksa email dan password anda atau daftar</string>
+    <string name="change_email">Ubah Email</string>
+    <string name="change_password">Ubah Password</string>
+    <string name="send_password_reset_email">Kirim email untuk atur ulang Password</string>
+    <string name="remove_user">Hapus pengguna</string>
+    <string name="new_pass">Password Baru</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Masuk</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_link_to_register">Belum terdaftar? Daftar Sekarang!</string>
+    <string name="btn_link_to_login">Sudah terdaftar. Masuk!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Lupa password Anda?</string>
+    <string name="btn_reset_password">Atur Ulang Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">Email Baru</string>
+    <string name="btn_change">Ubah</string>
+    <string name="btn_send">Kirim</string>
+    <string name="btn_remove">Hapus</string>
+    <string name="btn_sign_out">Keluar</string>
+    <string name="lbl_forgot_password">Lupa password?</string>
+    <string name="forgot_password_msg">Kami hanya butuh Id Email Anda yang telah terdaftar untuk mengirim instruksi atur ulang password.</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="title_activity_rute">Rute Trans Lampung</string>
+</resources>

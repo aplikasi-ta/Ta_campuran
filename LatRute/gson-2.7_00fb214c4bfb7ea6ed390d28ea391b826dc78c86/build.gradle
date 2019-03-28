@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('gson-2.7_00fb214c4bfb7ea6ed390d28ea391b826dc78c86.jar'))

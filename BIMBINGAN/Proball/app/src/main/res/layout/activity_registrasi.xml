@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registrasi2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.ari.proball.Registrasi"
+    android:weightSum="1">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/logini"
+        android:id="@+id/imageView3" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nama Lengkap"
+        android:ems="10"
+        android:id="@+id/txt_namalengkap"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="email"
+        android:id="@+id/txt_username"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:id="@+id/txt_pass"
+        android:textSize="12sp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Confrim Password"
+        android:id="@+id/txt_confrimpass"
+        android:textSize="12sp" />
+
+
+    <ImageButton
+        android:layout_width="226dp"
+        android:layout_height="127dp"
+        app:srcCompat="@drawable/fttt"
+        android:id="@+id/image_regis"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:text="REGISTRASI"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:id="@+id/btn_daftar"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium" />
+
+
+
+</LinearLayout>

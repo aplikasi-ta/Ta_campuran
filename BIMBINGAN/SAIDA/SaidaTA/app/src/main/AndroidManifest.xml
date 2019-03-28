@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ari.saidata">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".q1" />
+        <activity android:name=".q2" />
+        <activity android:name=".q3" />
+        <activity android:name=".q4" />
+        <activity android:name=".q5" />
+        <activity android:name=".q6" />
+        <activity android:name=".q7" />
+        <activity android:name=".q8" />
+        <activity android:name=".q9" />
+        <activity android:name=".q10" />
+        <activity android:name=".q11" />
+        <activity android:name=".HasilServqual" />
+        <activity android:name=".selesai" />
+        <activity android:name=".q12" />
+        <activity android:name=".q13" />
+        <activity android:name=".q14" />
+        <activity android:name=".q15" />
+        <activity android:name=".q16" />
+        <activity android:name=".q17" />
+        <activity android:name=".q18" />
+        <activity android:name=".q19" />
+        <activity android:name=".q20" />
+        <activity android:name=".q21" />
+        <activity android:name=".q22" />
+        <activity android:name=".hitung" />
+        <activity android:name=".Tampil" />
+        <activity android:name=".PilihRegistrasi" />
+        <activity android:name=".RegStaff" />
+        <activity android:name=".RegMahasiswa" />
+        <activity android:name=".PilihTAQuiz" />
+        <activity android:name=".TahunAjaran" />
+        <activity android:name=".FinishQuisioner" />
+        <activity android:name=".hasil_servqual" />
+        <activity android:name=".Tampil2" />
+        <activity android:name=".PilihHasil" />
+        <activity android:name=".LogStaff" />
+        <activity android:name=".Grafik"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/gb_ayam_bubut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ab_ok"/>
+
+    <TextView
+        android:id="@+id/ukuranDaging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/gb_ayam_bubut"
+        android:text="None"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/hargaDaging"
+        android:text="None"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_below="@+id/ukuranDaging"
+        android:layout_toEndOf="@+id/gb_ayam_bubut" />
+
+    <TextView
+        android:id="@+id/stockDaging"
+        android:text="None"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_below="@+id/hargaDaging"
+        android:layout_toEndOf="@+id/gb_ayam_bubut" />
+
+    <TextView
+        android:id="@+id/id_ayam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gb_ayam_bubut"
+        android:text="TextView"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

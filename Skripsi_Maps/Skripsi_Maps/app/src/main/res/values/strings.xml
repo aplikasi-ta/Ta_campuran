@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blamto</string>
+    <string name="title_activity_menu_activity">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="copyright_2018">Copyright 2018</string>
+    <string name="sandy_kurniawan">Sandy Kurniawan</string>
+    <string name="todo">TODO</string>
+    <string name="info">Blamto Maps merupakan aplikasi yang dapat memberikan suatu informasi objek wisata yang ada di Bandar Lampung. Blamto Maps juga memberikan informasi lokasi dan rute objek wisata yang ada di bandar lampung. Tujuan dari Aplikasi Blamto Maps ini agar dapat membantu masyarakat kota Bandar Lampung ataupun
+        Turis untuk dapat mendapatkan informasi objek wisata yang akurat dan dapat menambahkan suatu objek wisata baru yang belum di ketahui informasinya.</string>
+    <string name="title_activity_menu_">Menu_Activity</string>
+    <string name="title_activity_maps">Maps</string>
+</resources>

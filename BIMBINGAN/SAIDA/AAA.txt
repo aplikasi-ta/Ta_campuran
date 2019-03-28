@@ -1,0 +1,29 @@
+spinnerGuru = (Spinner) findViewById(R.id.spinGuru);
+        btn_reg = (Button) findViewById(R.id.btnRegister);
+        btn_log = (Button) findViewById(R.id.btnLogin);
+        txt_user = (EditText) findViewById(R.id.txtUsername);
+        txt_pass = (EditText) findViewById(R.id.txtPaas);
+
+
+        spinnerGuru.setOnItemSelectedListener(new CustomOnItemSelectedListener());
+
+        btn_reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intReg = new Intent(MainActivity.this, RegisterGuru.class);
+                startActivity(intReg);
+            }
+        });
+
+        btn_log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(guruku.equals("Guru")){
+                    invokeLogin_Guru();
+                }else if(guruku.equals("Siswa")){
+                    Toast.makeText(getApplication(),"Status Login : "+guruku,Toast.LENGTH_LONG).show();
+                }else if(guruku.equals("Orang Tua")){
+                    Toast.makeText(getApplication(),"Status Login : "+guruku,Toast.LENGTH_LONG).show();
+                }
+            }
+        });

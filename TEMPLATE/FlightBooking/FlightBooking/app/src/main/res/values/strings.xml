@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">"Flight Booking "</string>
+
+
+    <string name="bold"> <b>Belgrade</b></string>
+
+    <string name="departure"><b>Departure 12:40</b></string>
+
+    <string name="price"><b>21,829 USD</b></string>
+
+    <string name="title"> <b>Select Departing Flight</b></string>
+</resources>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/618/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays
+END
+Polyline.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/571/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/Polyline.java
+END
+OverlayWithIW.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/OverlayWithIW.java
+END
+FolderOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/FolderOverlay.java
+END
+GroundOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/563/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/GroundOverlay.java
+END
+Marker.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/Marker.java
+END
+InfoWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/457/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/InfoWindow.java
+END
+MapEventsOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/475/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/MapEventsOverlay.java
+END
+MarkerInfoWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/618/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/MarkerInfoWindow.java
+END
+BasicInfoWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/593/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/BasicInfoWindow.java
+END
+MapEventsReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/449/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/MapEventsReceiver.java
+END
+Polygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/571/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/overlays/Polygon.java
+END

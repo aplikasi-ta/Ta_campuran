@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/615/trunk/OSMBonusPack/libs
+END
+gson-2.2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/471/trunk/OSMBonusPack/libs/gson-2.2.4.jar
+END
+slf4j-android-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/trunk/OSMBonusPack/libs/slf4j-android-1.5.8.jar
+END
+commons-lang3-3.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/548/trunk/OSMBonusPack/libs/commons-lang3-3.3.2.jar
+END
+osmdroid-android-4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/615/trunk/OSMBonusPack/libs/osmdroid-android-4.3.jar
+END
+android-support-v4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/364/trunk/OSMBonusPack/libs/android-support-v4.jar
+END

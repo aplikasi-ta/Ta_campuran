@@ -1,0 +1,15 @@
+* Informasi Akun Anda **
+
+Paket Hosting: new_personal
+
+Domain: pstiubl.com
+
+IP Akun: 182.253.238.208
+
+** Detail Login cPanel **
+
+Username: u8913627
+
+Password: &#_u2(&+)C
+
+URL cPanel: http://182.253.238.208/cpanel

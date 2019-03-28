@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('osmdroid-android-5.5-release_a0239485951448e069ca1d9408711b755cc844a8.jar'))

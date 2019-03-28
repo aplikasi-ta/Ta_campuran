@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">APEL - Aplikasi Penilaian Lab Komputer</string>
+    <string name="radio_1">1</string>
+    <string name="radio_2">2</string>
+    <string name="radio_3">3</string>
+    <string name="radio_4">4</string>
+    <string name="radio_5">5</string>
+    <string name="title_activity_q13">q13</string>
+
+
+    <string-array name="android_layout_arrays1">
+        <item>Pilih TA</item>
+        <item>20162</item>
+    </string-array>
+
+
+    <string-array name="android_layout_arrays2">
+        <item>Pilih Prodi</item>
+        <item>Manajemen</item>
+        <item>Akuntansi</item>
+        <item>Hukum</item>
+        <item>Administrasi Bisnis</item>
+        <item>Administrasi Publik</item>
+        <item>Ilmu Komunikasi</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Mesin</item>
+        <item>Arsitektur</item>
+        <item>Sistem Informasi</item>
+        <item>Informatika</item>
+        <item>Pendidikan Bahasa Inggris</item>
+    </string-array>
+
+    <string-array name="android_layout_arrays3">
+        <item>Pilih Data</item>
+        <item>Tabel</item>
+        <item>Grafik</item>
+    </string-array>
+
+    <string-array name="android_layout_arrays4">
+        <item>Pilih Hasil</item>
+        <item>Persepsi</item>
+        <item>Harapan</item>
+    </string-array>
+
+    <string-array name="android_layout_arrays5">
+        <item>Pilih User</item>
+        <item>Staff</item>
+        <item>Mahasiswa</item>
+    </string-array>
+
+    <string name="title_activity_pilih_register">PilihRegister</string>
+</resources>

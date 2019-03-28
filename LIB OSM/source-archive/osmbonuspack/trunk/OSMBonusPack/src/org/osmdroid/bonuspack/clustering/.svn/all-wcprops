@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/613/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/clustering
+END
+GridMarkerClusterer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/613/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/clustering/GridMarkerClusterer.java
+END
+RadiusMarkerClusterer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/613/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/clustering/RadiusMarkerClusterer.java
+END
+StaticCluster.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/384/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/clustering/StaticCluster.java
+END
+MarkerClusterer.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/613/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/clustering/MarkerClusterer.java
+END

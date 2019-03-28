@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SPOOK App</string>
+
+    <string name="radio_laki">Laki-laki</string>
+    <string name="radio_perempuan">Perempuan</string>
+    <string name="pilihkelamin">Jenis Kelamin</string>
+
+
+    <string-array name="android_layout_arrays1">
+        <item>--- Pilih ---</item>
+        <item>Guru</item>
+        <item>Siswa</item>
+        <item>Orang Tua</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location
+END
+FlickrPOIProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/549/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/FlickrPOIProvider.java
+END
+NominatimPOIProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/575/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/NominatimPOIProvider.java
+END
+GeoNamesPOIProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/570/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/GeoNamesPOIProvider.java
+END
+GeocoderNominatim.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/575/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/GeocoderNominatim.java
+END
+PicasaPOIProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/549/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/PicasaPOIProvider.java
+END
+GeocoderGisgraphy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/549/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/GeocoderGisgraphy.java
+END
+OverpassAPIProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/OverpassAPIProvider.java
+END
+POI.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/575/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/location/POI.java
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/623/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml
+END
+KmlFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/548/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlFolder.java
+END
+KmlLineString.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/593/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlLineString.java
+END
+KmlDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/590/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlDocument.java
+END
+KmlPolygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/593/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlPolygon.java
+END
+KmlPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/593/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlPoint.java
+END
+StyleMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/520/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/StyleMap.java
+END
+KmlGeometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/471/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlGeometry.java
+END
+KmlFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/593/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlFeature.java
+END
+ColorStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/407/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/ColorStyle.java
+END
+Style.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/549/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/Style.java
+END
+StyleSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/520/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/StyleSelector.java
+END
+KmlPlacemark.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/623/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlPlacemark.java
+END
+KmlGroundOverlay.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/549/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlGroundOverlay.java
+END
+LineStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/359/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/LineStyle.java
+END
+IconStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/549/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/IconStyle.java
+END
+KmlMultiGeometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/471/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/kml/KmlMultiGeometry.java
+END

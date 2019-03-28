@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_pelanggaran4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ari.leata.input_pelanggaran4">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- child views in here -->
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tablelayoutid">
+
+                    <TableRow
+                        android:id="@+id/rowlay"
+                        android:background="@android:color/holo_blue_light"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TATA TERTIB / JENIS PELANGGARAN"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Aksi"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="14"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tidak membawa buku saku" />
+
+                        <CheckBox
+                            android:id="@+id/cb_57"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Buku saku hilang" />
+
+                        <CheckBox
+                            android:id="@+id/cb_58"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="16"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mengubah, menghapus poin pelanggaran pada buku saku" />
+
+                        <CheckBox
+                            android:id="@+id/cb_59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="17"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Membawa tip ex" />
+
+                        <CheckBox
+                            android:id="@+id/cb_60"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="18"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Membawa spidol besar permanen" />
+
+                        <CheckBox
+                            android:id="@+id/cb_61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="19"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mengubah, menghapus poin pelanggaran pada buki absen" />
+
+                        <CheckBox
+                            android:id="@+id/cb_62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#d1d2d2"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="H."
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="MEROKOK, NARKOBA, MINUMAN KERAS"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Membawa rokok dilingkungan sekolah" />
+
+                        <CheckBox
+                            android:id="@+id/cb_63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Merokok disekolah" />
+
+                        <CheckBox
+                            android:id="@+id/cb_64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="35"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Merokok dilingkunan sekolah radius 200 meter" />
+
+                        <CheckBox
+                            android:id="@+id/cb_65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Membawa narkoba atau minuman keras " />
+
+                        <CheckBox
+                            android:id="@+id/cb_66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150"
+                            android:textAlignment="center" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mengedarkan narkoba atau minuman keras (diserahkan yang berwajib)" />
+
+                        <CheckBox
+                            android:id="@+id/cb_67"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="6" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Kedapatan menggunakan narkoba atau minuman keras" />
+
+                        <CheckBox
+                            android:id="@+id/cb_68"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mabuk karena narkoba atau minuman keras(diserahkan yang berwajib" />
+
+                        <CheckBox
+                            android:id="@+id/cb_69"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="150"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="dan dikeluarkan tidak dengan hormat)" />
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#d1d2d2"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="G."
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="BACAAN PORNO-VCD PORNO-HANDPHONE"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Membawa gambar, stensil, VCD porno" />
+
+                        <CheckBox
+                            android:id="@+id/cb_70"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="40"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Membawa HP yang berisi video, photo, dan SMS porno(HP disita oleh\nsekolah dan HP tidak bisa diambil kembali" />
+
+                        <CheckBox
+                            android:id="@+id/cb_71"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="75"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mengedarkan gambar, buku, majalah, stensil, VCD, SMS, porno" />
+
+                        <CheckBox
+                            android:id="@+id/cb_72"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="75"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="430dp"
+        android:text="Next"/>
+
+</RelativeLayout>

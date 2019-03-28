@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ari.masojek.LogApps">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/masojeksplashapp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Username"
+        android:textColor="#050505"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtUser"
+        android:layout_below="@+id/txtUser"
+        android:layout_marginTop="22dp"
+        android:text="Password"
+        android:textColor="#050505"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn_signs"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_signups"
+        android:layout_alignBottom="@+id/btn_signups"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:background="@color/colorPrimary"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_signups"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtPass"
+        android:layout_below="@+id/txtPass"
+        android:layout_marginTop="22dp"
+        android:background="#FFE2EDE5"
+        android:text="Register" />
+
+</RelativeLayout>

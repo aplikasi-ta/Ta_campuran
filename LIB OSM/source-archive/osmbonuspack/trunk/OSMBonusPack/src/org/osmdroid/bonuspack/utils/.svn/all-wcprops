@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/601/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/utils
+END
+HttpConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/601/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/utils/HttpConnection.java
+END
+WebImageCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/116/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/utils/WebImageCache.java
+END
+BonusPackHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/592/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/utils/BonusPackHelper.java
+END
+DouglasPeuckerReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/322/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/utils/DouglasPeuckerReducer.java
+END
+PolylineEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/utils/PolylineEncoder.java
+END

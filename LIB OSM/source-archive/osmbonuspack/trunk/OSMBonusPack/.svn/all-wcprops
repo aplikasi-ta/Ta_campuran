@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/623/trunk/OSMBonusPack
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/548/trunk/OSMBonusPack/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/6/trunk/OSMBonusPack/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6/trunk/OSMBonusPack/.project
+END
+lint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/508/trunk/OSMBonusPack/lint.xml
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/OSMBonusPack/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/OSMBonusPack/AndroidManifest.xml
+END

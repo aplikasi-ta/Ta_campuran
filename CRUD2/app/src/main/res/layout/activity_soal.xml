@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ari.crud2.soal">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupNb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1" >
+
+        <RadioButton
+            android:id="@+id/radioAcer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Acer" />
+
+        <RadioButton
+            android:id="@+id/radioAsus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asus" />
+
+        <RadioButton
+            android:id="@+id/radioHp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP" />
+        <RadioButton
+            android:id="@+id/radioLenovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lenovo" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonJawab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/radioGroupNb"
+        android:text="jawab" />
+
+</RelativeLayout>

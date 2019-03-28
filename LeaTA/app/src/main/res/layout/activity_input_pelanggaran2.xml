@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_pelanggaran2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ari.leata.input_pelanggaran2">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- child views in here -->
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tablelayoutid">
+
+                    <TableRow
+                        android:id="@+id/rowlay"
+                        android:background="@android:color/holo_blue_light"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="TATA TERTIB / JENIS PELANGGARAN"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Aksi"
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Celana diinjak bagian bawahnya / dengan sengaja disobek bagian bawahnya" />
+
+                        <CheckBox
+                            android:id="@+id/cb_14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="6"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Berpakaian tidak rapih / tidak dimasukan" />
+
+                        <CheckBox
+                            android:id="@+id/cb_15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="7"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai atribut tidak sesuai dengan ketentuan" />
+
+                        <CheckBox
+                            android:id="@+id/cb_16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="8"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai sepatu sandal" />
+
+                        <CheckBox
+                            android:id="@+id/cb_17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="9"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai sepatu di injak bagian belakangnya / tumitnya" />
+
+                        <CheckBox
+                            android:id="@+id/cb_18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai jaket saat KBM (kecuali sakit)" />
+
+                        <CheckBox
+                            android:id="@+id/cb_19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="11"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai topi seragam sekolah" />
+
+                        <CheckBox
+                            android:id="@+id/cb_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="12"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai jilbab tidak sesuai ketentuan sekolah" />
+
+                        <CheckBox
+                            android:id="@+id/cb_21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="13"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tidak memakai kaos kaki" />
+
+                        <CheckBox
+                            android:id="@+id/cb_22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="14"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tidak memakai kaos singlet" />
+
+                        <CheckBox
+                            android:id="@+id/cb_23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tidak memakai ikat pinggang" />
+
+                        <CheckBox
+                            android:id="@+id/cb_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="16"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tidak memakai topi saat upacara" />
+
+                        <CheckBox
+                            android:id="@+id/cb_25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#d1d2d2"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="D."
+                            android:textStyle="normal|bold"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="KEPRIBADIAN"
+                            android:textStyle="normal|bold|italic"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="1"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Memakai aksesoris gelang, kalung, anting (pria)" />
+
+                        <CheckBox
+                            android:id="@+id/cb_26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="2"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rambut panjang (pria)" />
+
+                        <CheckBox
+                            android:id="@+id/cb_27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="3"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rambut di cat" />
+
+                        <CheckBox
+                            android:id="@+id/cb_28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Make up yang berlebihan" />
+
+                        <CheckBox
+                            android:id="@+id/cb_29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5"
+                            android:textAlignment="center" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Kuku panjang (kuku di potong saat itu)" />
+
+                        <CheckBox
+                            android:id="@+id/cb_30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="6" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Berbohong / memberikan keterangan palsu" />
+
+                        <CheckBox
+                            android:id="@+id/cb_31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Tidak patuh mengeluarkan kata-kata tidak senonoh / tidak sopan" />
+
+                        <CheckBox
+                            android:id="@+id/cb_32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="dihadapan guru, orang tua, siswa" />
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Berkata kasar / membentak guru, orang tua, siswa" />
+
+                        <CheckBox
+                            android:id="@+id/cb_33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Menyakiti perasaan orang lain" />
+
+                        <CheckBox
+                            android:id="@+id/cb_34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:textAlignment="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#ECEFF1"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:text="10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Mengintimidasi, mengancam siswa, teman lain" />
+
+                        <CheckBox
+                            android:id="@+id/cb_35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="430dp"
+        android:text="Next"/>
+
+</RelativeLayout>

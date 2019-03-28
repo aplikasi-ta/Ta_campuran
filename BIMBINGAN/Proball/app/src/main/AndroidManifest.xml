@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ari.proball">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Menu_Utama"
+            android:label="@string/title_activity_menu__utama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registrasi" />
+        <activity android:name=".tambah_lokasi" />
+        <activity android:name=".tampil_hotel" />
+        <activity android:name=".tampil_passmall" />
+        <activity android:name=".tampil_pendidikan" />
+        <activity android:name=".tampil_rmakan" />
+        <activity android:name=".tampil_rsakit" />
+        <activity android:name=".tampil_wisata" />
+        <activity android:name=".tentang" />
+        <activity android:name=".video_profil" />
+        <activity android:name=".GPS_LBS" />
+        <activity android:name=".Profil_User" />
+        <activity android:name=".Beranda" />
+        <activity android:name=".cari"></activity>
+    </application>
+
+</manifest>

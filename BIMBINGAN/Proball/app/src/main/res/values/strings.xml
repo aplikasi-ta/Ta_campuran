@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Proball</string>
+
+    <string-array name="android_layout_arrays">
+        <item>Pilih Profil</item>
+        <item>Rumah Sakit</item>
+        <item>Sekolah</item>
+        <item>Pasar</item>
+        <item>Wisata</item>
+        <item>Rumah Makan</item>
+    </string-array>
+
+
+    <string name="title_activity_menu__utama">Menu_Utama</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

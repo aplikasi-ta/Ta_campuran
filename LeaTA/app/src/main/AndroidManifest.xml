@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ari.leata">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuGuru" />
+        <activity android:name=".RekapPointLanggar" />
+        <activity android:name=".InputPelanggaran" />
+        <activity android:name=".MenuOrtuSiswa" />
+        <activity android:name=".LihatPleanggaranSiswa" />
+        <activity android:name=".RegisterGuru" />
+        <activity android:name=".RegisterOrtuSiswa" />
+        <activity android:name=".SettingGuru" />
+        <activity android:name=".SettingSiswa" />
+        <activity android:name=".input_pelanggaran2" />
+        <activity android:name=".input_pelanggaran3" />
+        <activity android:name=".input_pelanggaran4" />
+        <activity android:name=".input_pelanggaran5" />
+        <activity android:name=".input_siswa"></activity>
+    </application>
+
+</manifest>

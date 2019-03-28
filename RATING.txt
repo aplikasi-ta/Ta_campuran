@@ -1,0 +1,39 @@
+Perbedaan Rating dan Share
+
+
+
+Sebagian dari kita sudah tidak asing dengan kata rating. Kata ini memang berkaitan erat dengan dunia pertelevisian. Namun apakah Anda sudah tahu arti dari kata tersebut? Tidak hanya rating, di dalam dunia pertelevisian ada pula share. Keduanya berkaitan erat, bahkan kita bisa saja keliru dalam mengartikannya. Berikut adalah penjelasan singkat mengenai rating dan share.
+
+Rating (biasa di simbolkan dengan AA%) adalah estimasi penonton televisi dari seluruh pemilik televisi. Perbandingan seluruh pemilik televisi dengan pemilik televisi yang menonton satu stasiun tertentu, biasanya di presentasikan dalam bentuk persentase. Misalnya 3 dari10 rumah menonton satu stasiun tertentu maka akan di presentasikan rating 30 persen. 
+
+Secara umum, rating adalah evaluasi atau penilaian atas sesuatu. Rating merupakan data kepemirsaan televisi. Data merupakan hasil pengukuran secara kuantitatif. Jadi, rating bisa dikatakan sebagai rata-rata pemirsa dalam suatu program tertentu yang dinyatakan sebagai persentase dari kelompok sampel atau potensi total. Pengertian yang lebih mudah, rating adalah jumlah orang yang menonton suatu program televisi terhadap populasi televisi yang dipresentasekan. 
+
+Data kepemirsaan TV itu dihasilkan berdasarkan survei kepemirsaan TV (TV Audience Measurement/ TAM). Di Indonesia survei kepemirsaan televisi kini diselenggarakan oleh AGB Nielsen Media Research (AGB NMR). Sebenarnya ada perusahaan lain yang bergerak dibidang yang sama, tetapi para stakeholders dari data kepemirsaan TV itu, seperti pengelola stasiun televisi, pengiklan, media, dan lainnya yang berlangganan rating tersebut, lebih mempercayakan terhadap hasil data kuantitatif yang dihasilkan oleh AGB NMR. AGB NMR merupakan perusahaan survei kepemirsaan TV terbesar di dunia. Dalam tugasnya, AGB NMR mengacu pada pandangan global ”Global Guidelines for TV Audience Measurement (GGTAM)” yang dibuat oleh Audience Research Method (ARM) Group.
+
+Pengoperasian dan prosedur standar survei kepemirsaan TV yang mengacu pada GGTAM harus melalui tujuh proses pokok. Ketujuh proses tersebut adalah:
+1. TV Establishment Survey,
+2. Pemilihan Panel,
+3. Metering Equipment (TVM-5): pemasangan di rumah tangga panel,
+4. Pengumpulan Data (On-line Polling),
+5. The Production (Pollux System),
+6. TV Monitoring,
+7. Pengiriman Data (via Arianna).
+
+Angka rating dapat dipengaruhi oleh berbagai macam faktor, misalnya saja durasi suatu program, program tandingan, kualitas gambar yang diterima di rumah, penonton yang ada (available audience), jadwal tayang, waktu-waktu insidentil, juga pola kebiasaan penonton di daerah-daerah tertentu. Rating program tidak mencerminkan kualitas program. Rating adalah presentase dari penonton suatu acara dibandingkan dengan total atau spesifik populasi pada waktu tertentu. Yang diukur melalui rating ini kuantitas dan bukan kualitas suatu acara.
+                               Rating = Jumlah penonton program A x 100 %
+                                                            Populasi TV
+
+Dengan perhitungan rating yang menit per menit, panjangnya program memengaruhi rating dari suatu program. Misalnya, program yang berdurasi 30 menit mempunyai rating 10. Ketika diperpanjang menjadi 60 menit, rating-nya turun menjadi 8 persen, disebabkan oleh angka pembagi yang semakin besar. 
+
+Share adalah persentase televisi rumah tangga atau biasa disimbolkan dengan HUT (Household Using Television). Share adalah persentase jumlah pemirsa atau target pemirsa pada ukuran satuan waktu tertentu pada suatu channel tertentu terhadap total pemirsa di semua channel. Misalnya, 2 channel ditonton oleh 3 dari 6 pemilik televisi maka share untuk channel tersebut adalah 50. 
+                                        Share = Program Rating x 100 %
+                                                      Total Rating
+
+Ada pula istilah Channel Share yakni persentase pemirsa TV di satu periode tertentu pada saluran TV. Rumus perhitungannya sebagai berikut:
+
+                                 Channel Share = Channel Share x 100 %
+                                                           Total Pemirsa
+
+Pada Channel Share yang dibandingkan bukan lagi acaranya, melainkan stasiun TV-nya.
+
+Perbedaan rating dan share yaitu angka rating menghitung jumlah penonton TV pada sebuah acara, sedang share menghitung persentase penonton TV di antara stasiun TV lain. Misal, jika ada 3 stasiun TV dengan populasi 10 ribu dan TV1 mempunyai angka penonton 2 ribu, TV2 seribu, dan TV3 seribu, maka rating TV1 20% dan share-nya 50%; TV2 rating 10%, share 25%; TV3 rating 10% dan share 25%.

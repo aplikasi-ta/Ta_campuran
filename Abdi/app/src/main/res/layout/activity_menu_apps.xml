@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16a085"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Selamat Datang di ABDI Apps"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="Selamat Datang di ABDI Apps"
+        android:textColor="#fff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/menu_ballon"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="13dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:id="@+id/btn_absen"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:layout_below="@+id/login_title"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/user_profile_image_background"
+                android:elevation="4dp"
+                android:src="@drawable/qrr" />
+
+            <ImageButton
+                android:id="@+id/btn_riwayat"
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/login_title"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/user_profile_image_background"
+                android:elevation="4dp"
+                android:src="@drawable/history" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="-10dp"
+            android:paddingTop="123dp"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentTop="true">
+
+            <ImageButton
+                android:id="@+id/btn_tentang"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:layout_below="@+id/login_title"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/user_profile_image_background"
+                android:elevation="4dp"
+                android:src="@drawable/tentang" />
+
+            <ImageButton
+                android:id="@+id/btn_logout"
+                android:layout_marginLeft="18dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/login_title"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/user_profile_image_background"
+                android:elevation="4dp"
+                android:src="@drawable/exit" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_nip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#16a085"
+        android:text="0" />
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/txt_jamku"
+        android:layout_width="105dp"
+        android:layout_height="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:text="TextView"
+        android:textColor="#16a085" />
+
+    <TextView
+        android:id="@+id/txt_termin"
+        android:textColor="#16a085f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentEnd="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txt_hari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/login_title"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="-16dp"
+        android:text="TextView"
+        android:textColor="#16a085" />
+
+</RelativeLayout>

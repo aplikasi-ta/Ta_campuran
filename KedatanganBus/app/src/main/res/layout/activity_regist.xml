@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_regist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"
+       tools:context="com.sitiamalia.kedatanganbus.regist">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registrasi"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aplikasi Kedatangan Bus"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="25dp"
+                    android:weightSum="1">
+
+                    <EditText
+                        android:id="@+id/editUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:hint="Username"
+                        android:textColorHint="#2e2b2b"
+                        android:padding="8dp"
+                        android:inputType="text"
+                        android:layout_marginBottom="20dp"/>
+
+                    <EditText
+                        android:id="@+id/editPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:hint="Password"
+                        android:textColorHint="#2e2b2b"
+                        android:padding="8dp"
+                        android:inputType="text"
+                        android:layout_marginBottom="20dp"/>
+
+                    <EditText
+                        android:id="@+id/editNama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:hint="Nama"
+                        android:textColorHint="#2e2b2b"
+                        android:padding="8dp"
+                        android:inputType="text"
+                        android:layout_marginBottom="20dp" />
+
+                    <EditText
+                        android:id="@+id/editEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:hint="Email"
+                        android:textColorHint="#2e2b2b"
+                        android:padding="8dp"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginBottom="20dp"/>
+
+                    <Button
+                        android:id="@+id/BtnRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#2757f5"
+                        android:textColor="#FFFF"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="0.47"
+                        android:text="REGISTRASI" />
+
+                    <Button
+                        android:id="@+id/BtnLogin"
+                        android:layout_width="300dp"
+                        android:layout_height="40dp"
+                        android:text="login"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+

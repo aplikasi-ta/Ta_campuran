@@ -1,0 +1,1 @@
+include ':app', ':osmdroid-android-5.5-release_a0239485951448e069ca1d9408711b755cc844a8', ':gson-2.7_00fb214c4bfb7ea6ed390d28ea391b826dc78c86', ':commons-lang3-3.3.2', ':osmbonuspack_v6.0', ':slf4j-android-1.6.1-RC1', ':osmbonuspack_v4.4'

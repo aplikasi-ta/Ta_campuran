@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonChoose"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map_"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawableRight="@android:drawable/ic_menu_gallery"
+        android:text="Choose Image"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <ImageView
+        android:id="@+id/fotowisata"
+        android:layout_width="150dp"
+        android:layout_height="210dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/namawisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/fotowisata"
+        android:layout_toRightOf="@+id/fotowisata"
+        android:hint="Masukan Nama Wisata" />
+
+    <EditText
+        android:id="@+id/alamatwisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namawisata"
+        android:layout_toEndOf="@+id/fotowisata"
+        android:layout_toRightOf="@+id/fotowisata"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/informasiwisata"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_above="@+id/map_"
+        android:layout_toEndOf="@+id/buttonChoose"
+        android:layout_toRightOf="@+id/buttonChoose"
+        android:hint="Informasi" />
+
+    <EditText
+        android:id="@+id/jeniswisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamatwisata"
+        android:layout_toEndOf="@+id/fotowisata"
+        android:layout_toRightOf="@+id/fotowisata"
+        android:hint="Jenis Wisata" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </com.google.android.gms.maps.MapView>
+
+</RelativeLayout>

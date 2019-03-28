@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="str_img1">Image1</string>
+    <string name="str_img2">Image2</string>
+    <string name="str_img3">Image3</string>
+    <string name="str_img4">Image4</string>
+    <string name="str_img5">Image5</string>
+
+    <string name="str_btn_start">Mulai SlideShow</string>
+    <string name="str_btn_stop">Berhenti</string>
+    <string name="title_activity_menu_utama">MenuUtama</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

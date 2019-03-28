@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LatRute.iml" filepath="$PROJECT_DIR$/LatRute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons-lang3-3.3.2/commons-lang3-3.3.2.iml" filepath="$PROJECT_DIR$/commons-lang3-3.3.2/commons-lang3-3.3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gson-2.7_00fb214c4bfb7ea6ed390d28ea391b826dc78c86/gson-2.7_00fb214c4bfb7ea6ed390d28ea391b826dc78c86.iml" filepath="$PROJECT_DIR$/gson-2.7_00fb214c4bfb7ea6ed390d28ea391b826dc78c86/gson-2.7_00fb214c4bfb7ea6ed390d28ea391b826dc78c86.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmbonuspack_v4.4/osmbonuspack_v4.4.iml" filepath="$PROJECT_DIR$/osmbonuspack_v4.4/osmbonuspack_v4.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmbonuspack_v6.0/osmbonuspack_v6.0.iml" filepath="$PROJECT_DIR$/osmbonuspack_v6.0/osmbonuspack_v6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmdroid-android-5.5-release_a0239485951448e069ca1d9408711b755cc844a8/osmdroid-android-5.5-release_a0239485951448e069ca1d9408711b755cc844a8.iml" filepath="$PROJECT_DIR$/osmdroid-android-5.5-release_a0239485951448e069ca1d9408711b755cc844a8/osmdroid-android-5.5-release_a0239485951448e069ca1d9408711b755cc844a8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slf4j-android-1.6.1-RC1/slf4j-android-1.6.1-RC1.iml" filepath="$PROJECT_DIR$/slf4j-android-1.6.1-RC1/slf4j-android-1.6.1-RC1.iml" />
+    </modules>
+  </component>
+</project>

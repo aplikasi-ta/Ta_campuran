@@ -1,0 +1,2 @@
+ Aplikasi GIS untuk menghitung  jarak terdekat Menggunakan Algoritma Greedy berbasis android 
+(Studi Kasus: Kota bandar lampung ) 

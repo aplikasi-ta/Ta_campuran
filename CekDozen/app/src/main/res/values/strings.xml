@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cek Dosen</string>
+
+    <string name="radio_laki">Laki-laki</string>
+    <string name="radio_perempuan">Perempuan</string>
+    <string name="pilihkelamin">Jenis Kelamin</string>
+
+    <string-array name="android_layout_arrays1">
+        <item>--- Pilih ---</item>
+        <item>Hukum</item>
+        <item>Manajemen</item>
+        <item>Akuntansi</item>
+        <item>Ilmu Administrasi Bisnis</item>
+        <item>Ilmu Administrasi Publik</item>
+        <item>Ilmu Komunikasi</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Mesin</item>
+        <item>Arsitektur</item>
+        <item>Sistem Informasi</item>
+        <item>Teknik Informatika</item>
+        <item>Pendidikan Bahasa Inggris</item>
+    </string-array>
+
+</resources>

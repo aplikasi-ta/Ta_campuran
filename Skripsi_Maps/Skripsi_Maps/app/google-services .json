@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "417941603691",
+    "project_id": "skripsimaps"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417941603691:android:9ced348686793d82",
+        "android_client_info": {
+          "package_name": "com.example.sandykurniawan.skripsi_maps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417941603691-d1htrdfb6p9rujq95cn1eqscdbfuju86.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "417941603691-5vfvk6liehtjdc1eescnptj0sp893jda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sandykurniawan.skripsi_maps",
+            "certificate_hash": "c86fce19dca92aead2c06d9055b9706201f69eb2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6gYgBxApJM60_pc4-OtIhdi0pdkOjFGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

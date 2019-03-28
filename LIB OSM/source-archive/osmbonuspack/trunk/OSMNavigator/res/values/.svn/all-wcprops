@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/602/trunk/OSMNavigator/res/values
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/602/trunk/OSMNavigator/res/values/strings.xml
+END
+direction_icons.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/510/trunk/OSMNavigator/res/values/direction_icons.xml
+END
+osm_poi_tags.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/602/trunk/OSMNavigator/res/values/osm_poi_tags.xml
+END
+poi_tags.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/510/trunk/OSMNavigator/res/values/poi_tags.xml
+END

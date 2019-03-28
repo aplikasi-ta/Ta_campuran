@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grafik"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ari.saidata.Grafik">
+
+    <TextView
+        android:text="Berikut ini Hasil Kuesioner Kepuasan Mahasiswa terhadap Layanan Akademik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Tahun Ajaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Program Studi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinTA"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:entries="@array/android_layout_arrays1"
+        android:layout_alignParentEnd="true" />
+
+
+    <HorizontalScrollView
+        android:layout_marginTop="240dp"
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- child views in here -->
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:text="Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/btn_hasil"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinPR"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:entries="@array/android_layout_arrays2"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+
+    <com.github.mikephil.charting.charts.BarChart
+    android:id="@+id/chart"
+    android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="200dp"/>
+
+
+</RelativeLayout>

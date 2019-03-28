@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing
+END
+Road.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/Road.java
+END
+RoadNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/RoadNode.java
+END
+RoadLeg.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/RoadLeg.java
+END
+GoogleRoadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/GoogleRoadManager.java
+END
+RoadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/571/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/RoadManager.java
+END
+GraphHopperRoadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/606/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/GraphHopperRoadManager.java
+END
+MapQuestRoadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/MapQuestRoadManager.java
+END
+OSRMRoadManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/559/trunk/OSMBonusPack/src/org/osmdroid/bonuspack/routing/OSRMRoadManager.java
+END

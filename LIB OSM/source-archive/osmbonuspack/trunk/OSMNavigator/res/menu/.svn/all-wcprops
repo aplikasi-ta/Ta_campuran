@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/602/trunk/OSMNavigator/res/menu
+END
+kml_option_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/572/trunk/OSMNavigator/res/menu/kml_option_menu.xml
+END
+map_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/572/trunk/OSMNavigator/res/menu/map_menu.xml
+END
+style_item_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/572/trunk/OSMNavigator/res/menu/style_item_menu.xml
+END
+kml_item_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/572/trunk/OSMNavigator/res/menu/kml_item_menu.xml
+END
+option_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/602/trunk/OSMNavigator/res/menu/option_menu.xml
+END
+style_option_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/572/trunk/OSMNavigator/res/menu/style_option_menu.xml
+END
